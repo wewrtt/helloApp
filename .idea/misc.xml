@@ -7,7 +7,8 @@
         <entry key="..\:/Hello/app/src/main/res/drawable/custom_button.xml" value="0.1355" />
         <entry key="..\:/Hello/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1355" />
         <entry key="..\:/Hello/app/src/main/res/layout/activity_fragment_demo.xml" value="0.22" />
-        <entry key="..\:/Hello/app/src/main/res/layout/activity_gridview_dmo.xml" value="0.1" />
+        <entry key="..\:/Hello/app/src/main/res/layout/activity_gridview_dmo.xml" value="0.25" />
+        <entry key="..\:/Hello/app/src/main/res/layout/activity_load_image_form_internet_with_asyn_task.xml" value="0.20244565217391305" />
         <entry key="..\:/Hello/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Hello/app/src/main/res/layout/activity_second_screem.xml" value="0.25" />
         <entry key="..\:/Hello/app/src/main/res/layout/activity_sqlite.xml" value="0.20244565217391305" />
