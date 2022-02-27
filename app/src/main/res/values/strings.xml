@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Hello</string>
+    <string name="language">xin chào</string>
+    <integer-array name="number">
+        <item>999</item>
+        <item>998</item>
+        <item>997</item>
+        <item>888</item>
+        <item>887</item>
+        <item>886</item>
+    </integer-array>
+    <string-array name="List_Array">
+        <item name="long">Long</item>
+        <item>Nam</item>
+        <item>Kiên</item>
+        <item>Thành</item>
+        <item>Chiến</item>
+    </string-array>
+    <!--    với key này dùng để hiển thị ra bằng cách gọi R.tring.(key_name) để hiển thị đa ngôn ngữ-->
+    <string name="key_co_the_goi_ra_duoc">hello</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/black"></solid>
+<!--    bo góc tương ứng vs 4 chiều
+             android:bottomLeftRadius="50dp"
+             android:bottomRightRadius="50dp"
+             android:topLeftRadius="50dp"
+             android:topRightRadius="50dp"-->
+    <corners android:radius="600dp"></corners>
+    <size android:height="100dp"
+            android:width="100dp"></size>
+<!--    đường viền
+            android:dashGap="5dp"
+            android:dashWidth="5dp" tạo đường viền đứt đoạn-->
+    <stroke android:color="@color/black"
+            android:width="5dp"
+            android:dashGap="5dp"
+            android:dashWidth="5dp"></stroke>
+
+
+
+</shape>
