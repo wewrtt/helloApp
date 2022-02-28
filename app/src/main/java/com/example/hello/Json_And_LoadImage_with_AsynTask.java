@@ -11,14 +11,17 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
-import java.net.URI;
 import java.net.URL;
 
-public class loadImageFormInternet_with_AsynTask extends AppCompatActivity {
+public class Json_And_LoadImage_with_AsynTask extends AppCompatActivity {
     private Button btn_image;
     private ImageView image;
     private ArrayAdapter<ImageView> adapter;
@@ -30,12 +33,19 @@ public class loadImageFormInternet_with_AsynTask extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_load_image_form_internet_with_asyn_task);
+        setContentView(R.layout.json_loadimage_with_asyn_task);
         FindById();
         btn_image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                String jsonObject="{'name':'long','age':'18'}";
+                try {
+                    JSONObject json= new JSONObject(jsonObject);
+                    Toast.makeText(Json_And_LoadImage_with_AsynTask.this,json.getString("age")
+                            ,Toast.LENGTH_LONG).show();
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
                 new Load_image().execute("https://vnw-img-cdn.popsww.com/api/v2/containers/file2/cms_topic/thumbnail_title-6e402c277c9a-1592296049904-Jegh031s.png");
             }
         });

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hello">
         <activity
-            android:name=".loadImageFormInternet_with_AsynTask"
+            android:name=".Json_And_LoadImage_with_AsynTask"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
