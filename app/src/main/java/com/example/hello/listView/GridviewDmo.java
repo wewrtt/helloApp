@@ -1,4 +1,4 @@
-package com.example.hello;
+package com.example.hello.listView;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,8 +8,10 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.GridView;
+
+import com.example.hello.R;
+import com.example.hello.model.Student;
 
 import java.util.ArrayList;
 import java.util.List;

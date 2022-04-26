@@ -6,6 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#00FFF7"
+        app:itemIconSize="20dp"
+        app:itemIconTint="@drawable/test"
+        app:itemTextColor="@drawable/test"
+        app:labelVisibilityMode="selected"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992"
+        app:menu="@menu/menu_bottom"
+        tools:layout_editor_absoluteX="0dp"></com.google.android.material.bottomnavigation.BottomNavigationView>
+
     <EditText
         android:id="@+id/edittext1"
         android:layout_width="wrap_content"
@@ -61,13 +75,13 @@
 
     <Button
 
-        android:background="@drawable/button"
         android:id="@+id/button"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/button"
         android:text="tổng "
-
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -81,11 +95,11 @@
         android:layout_marginTop="80dp"
         android:text="list view"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnScreem3"
-        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.158" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
 
     <Button
         android:id="@+id/btnpopUpMenu"
@@ -103,14 +117,16 @@
         android:id="@+id/btnScreem3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#B32424"
         android:text="dịch vụ"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.724"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
 
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.629" />
+        app:layout_constraintVertical_bias="0.152" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

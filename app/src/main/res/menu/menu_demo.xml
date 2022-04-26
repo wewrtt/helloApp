@@ -12,11 +12,15 @@
     <item android:title="Search"
         android:id="@+id/menu_search"></item>
 
-    <item android:title="More">
+    <item android:title="More"
+        android:id="@+id/menu_more">
         <menu>
-            <item android:title="Contact"></item>
-            <item android:title="WebStie"></item>
-            <item android:title="Exit"></item>
+            <item android:title="Contact"
+                android:id="@+id/menu_contact"></item>
+            <item android:title="WebStie"
+                android:id="@+id/menu_webStie"></item>
+            <item android:title="Exit"
+                android:id="@+id/menu_exit"></item>
         </menu>
     </item>
 

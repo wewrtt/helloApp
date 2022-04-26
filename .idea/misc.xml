@@ -3,17 +3,46 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Hello/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1235" />
         <entry key="..\:/Hello/app/src/main/res/drawable/button.xml" value="0.1355" />
         <entry key="..\:/Hello/app/src/main/res/drawable/custom_button.xml" value="0.1355" />
         <entry key="..\:/Hello/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1355" />
+        <entry key="..\:/Hello/app/src/main/res/drawable/test.xml" value="0.1" />
+        <entry key="..\:/Hello/app/src/main/res/layout/Json_And_LoadImage_with_AsynTask.xml" value="0.20244565217391305" />
+        <entry key="..\:/Hello/app/src/main/res/layout/activity_auto_complate.xml" value="0.20199275362318841" />
+        <entry key="..\:/Hello/app/src/main/res/layout/activity_charts.xml" value="0.25" />
+        <entry key="..\:/Hello/app/src/main/res/layout/activity_description.xml" value="0.25" />
         <entry key="..\:/Hello/app/src/main/res/layout/activity_fragment_demo.xml" value="0.22" />
         <entry key="..\:/Hello/app/src/main/res/layout/activity_gridview_dmo.xml" value="0.25" />
+        <entry key="..\:/Hello/app/src/main/res/layout/activity_list_view.xml" value="0.1721014492753623" />
         <entry key="..\:/Hello/app/src/main/res/layout/activity_load_image_form_internet_with_asyn_task.xml" value="0.20244565217391305" />
-        <entry key="..\:/Hello/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Hello/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Hello/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Hello/app/src/main/res/layout/activity_main3.xml" value="0.25" />
+        <entry key="..\:/Hello/app/src/main/res/layout/activity_main4.xml" value="0.17028985507246377" />
         <entry key="..\:/Hello/app/src/main/res/layout/activity_second_screem.xml" value="0.25" />
+        <entry key="..\:/Hello/app/src/main/res/layout/activity_set_icon.xml" value="0.1721014492753623" />
+        <entry key="..\:/Hello/app/src/main/res/layout/activity_set_icon_bottom.xml" value="0.1721014492753623" />
+        <entry key="..\:/Hello/app/src/main/res/layout/activity_setion.xml" value="0.1721014492753623" />
+        <entry key="..\:/Hello/app/src/main/res/layout/activity_spinner_view.xml" value="0.18" />
         <entry key="..\:/Hello/app/src/main/res/layout/activity_sqlite.xml" value="0.20244565217391305" />
         <entry key="..\:/Hello/app/src/main/res/layout/activity_third_screem.xml" value="0.20244565217391305" />
+        <entry key="..\:/Hello/app/src/main/res/layout/activity_volley_string_request.xml" value="0.1721014492753623" />
+        <entry key="..\:/Hello/app/src/main/res/layout/app_bar_main.xml" value="0.17028985507246377" />
+        <entry key="..\:/Hello/app/src/main/res/layout/content_main.xml" value="0.17028985507246377" />
+        <entry key="..\:/Hello/app/src/main/res/layout/donigitem.xml" value="0.33" />
+        <entry key="..\:/Hello/app/src/main/res/layout/fagment_a.xml" value="0.17028985507246377" />
+        <entry key="..\:/Hello/app/src/main/res/layout/fragment_a.xml" value="0.17028985507246377" />
+        <entry key="..\:/Hello/app/src/main/res/layout/fragment_gallery.xml" value="0.17028985507246377" />
+        <entry key="..\:/Hello/app/src/main/res/layout/fragment_home.xml" value="0.17028985507246377" />
+        <entry key="..\:/Hello/app/src/main/res/layout/fragment_slideshow.xml" value="0.17028985507246377" />
+        <entry key="..\:/Hello/app/src/main/res/layout/json_and_loadimage_with_asyntask.xml" value="0.1721014492753623" />
+        <entry key="..\:/Hello/app/src/main/res/layout/json_loadimage_with_asyn_task.xml" value="0.1721014492753623" />
+        <entry key="..\:/Hello/app/src/main/res/layout/nav_header_main.xml" value="0.17028985507246377" />
         <entry key="..\:/Hello/app/src/main/res/layout/student.xml" value="0.18854166666666666" />
+        <entry key="..\:/Hello/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Hello/app/src/main/res/menu/main_activity2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Hello/app/src/main/res/menu/menu_bottom.xml" value="0.20416666666666666" />
         <entry key="..\:/Hello/app/src/main/res/menu/menu_demo.xml" value="0.33" />
       </map>
     </option>

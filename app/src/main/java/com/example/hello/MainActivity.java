@@ -1,15 +1,11 @@
 package com.example.hello;
 
-import androidx.annotation.CallSuper;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.view.menu.MenuView;
 
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -19,10 +15,13 @@ import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.hello.Main_screem.SecondScreem;
+import com.example.hello.Main_screem.ThirdScreem;
+import com.example.hello.model.CaculaterAdd;
+import com.example.hello.model.Student;
+
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     public static final String TAG=MainActivity.class.getSimpleName();
@@ -84,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
         }
     };
     public  void clickButton2(){
-        Intent i= new Intent(this,SecondScreem.class);
+        Intent i= new Intent(this, SecondScreem.class);
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat dinhdangngay= new SimpleDateFormat("dd/MM/yyyy");
         String a= dinhdangngay.format(calendar.getTime());
@@ -100,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
     public  void clickButton3(){
-        Intent i= new Intent(this,ThirdScreem.class);
+        Intent i= new Intent(this, ThirdScreem.class);
         startActivity(i);
     }
     // pop menu in btn

@@ -1,4 +1,4 @@
-package com.example.hello;
+package com.example.hello.Main_screem;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,7 +7,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
-import android.nfc.Tag;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -15,6 +14,10 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.example.hello.R;
+import com.example.hello.listView.ListStudentAdapter;
+import com.example.hello.model.Student;
 
 import java.util.ArrayList;
 import java.util.List;

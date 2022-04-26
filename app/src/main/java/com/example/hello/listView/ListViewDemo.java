@@ -1,4 +1,4 @@
-package com.example.hello;
+package com.example.hello.listView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -14,6 +14,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.example.hello.R;
 
 import java.util.ArrayList;
 
